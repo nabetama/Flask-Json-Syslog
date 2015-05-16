@@ -14,3 +14,4 @@ NobjasMakefile
 profiler.log
 *~
 .sass-cache
+*.egg-info
