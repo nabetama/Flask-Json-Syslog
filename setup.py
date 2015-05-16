@@ -1,32 +1,31 @@
 #coding: utf-8
 
 """
-Flask-JsonLog
--------------
+Flask-Json-SysLog
+-----------------
 
 """
 from setuptools import setup
 
 
 setup(
-    name='Flask-Jsonlog',
+    name='Flask-Json-Syslog',
     version='0.1',
-    url='http://github.com/nabetama/flask-jsonlog/',
+    url='http://github.com/nabetama/flask-json-syslog/',
     license='BSD',
-    author='Your Name',
-    author_email='your-email@example.com',
-    description='Very short description',
+    author='Mao Nabeta',
+    author_email='mao.nabeta@gmail.com',
+    description='Output syslog of the json format.',
     long_description=__doc__,
-    py_modules=['flask_sqlite3'],
-    # if you would be using a package instead use packages instead
-    # of py_modules:
-    # packages=['flask_sqlite3'],
+    packages=['flask_json_syslog'],
     zip_safe=False,
     include_package_data=True,
     platforms='any',
     install_requires=[
         'Flask'
     ],
+    provides=['Flask', 'syslog', 'json'],
+    keywords=['Flask', 'syslog', 'json'],
     classifiers=[
         'Environment :: Web Environment',
         'Intended Audience :: Developers',
