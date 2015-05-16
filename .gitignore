@@ -1,0 +1,16 @@
+*.pyc
+*.swp
+*.orig
+static/img/card_old
+tags
+TAGS
+templates_compiled
+bulkloader-log-*
+bulkloader-progress-*
+Thumbs.db
+.DS_Store
+.BridgeSort
+NobjasMakefile
+profiler.log
+*~
+.sass-cache
