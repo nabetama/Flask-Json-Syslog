@@ -16,6 +16,8 @@ Use pip:
 In your app.py
 ``````````````
 
+Save in app.py:
+
 .. code:: python
 
     from flask import g
@@ -24,14 +26,15 @@ In your app.py
     app = Flask(__name__)
     flask_json_syslog = FlaskJsonSyslog(app)
 
-    ...
-
     @app.before_request
     def before_request():
+
         g.json_log = flask_json_syslog.put
 
 In your application code.
 `````````````````````````
+
+Example:
 
 .. code:: python
 
