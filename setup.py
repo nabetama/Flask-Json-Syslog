@@ -48,14 +48,14 @@ In your application
 
     g.json_log({'foo': 'bar'}, ...)
 
-rsyslog.conf
+(r)syslog.conf
 ~~~~~~~~~~~~
 
 .. code:: sh
 
     ...
 
-    $template json,"%msg%\n"
+    $template json,\"%msg%\\n\"
     local5.* /var/log/local5.log;json
 
     ...
