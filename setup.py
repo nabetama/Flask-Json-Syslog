@@ -1,5 +1,3 @@
-#coding: utf-8
-
 """
 Flask-Json-SysLog
 -----------------
@@ -50,7 +48,6 @@ Links
 
 * `website <https://github.com/nabetama/Flask-Json-Syslog>`_
 """
-
 from setuptools import setup
 
 
