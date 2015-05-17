@@ -7,11 +7,11 @@ Output syslog of the json format.
 Installation
 ````````````
 
-Use pip.
+Use pip:
 
 .. code:: bash
 
-    # pip install flask-json-syslog
+    $ pip install flask-json-syslog
 
 In your app.py
 ``````````````
@@ -39,6 +39,8 @@ In your application code.
 
 (r)syslog.conf
 ``````````````
+
+.. code:: sh
 
     $template json,"%msg%\n"
     local5.* /var/log/local5.log;json
