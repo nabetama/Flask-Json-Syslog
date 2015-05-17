@@ -58,7 +58,7 @@ from setuptools import setup
 
 setup(
     name='Flask-Json-Syslog',
-    version='0.1.21',
+    version='0.1.22',
     url='https://github.com/nabetama/Flask-Json-Syslog',
     license='MIT',
     author='Mao Nabeta',
