@@ -16,3 +16,5 @@ profiler.log
 .sass-cache
 *.egg-info
 *.tar.gz
+build
+dist
