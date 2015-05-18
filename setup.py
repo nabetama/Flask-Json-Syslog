@@ -70,7 +70,7 @@ from setuptools import setup
 
 setup(
     name='Flask-Json-Syslog',
-    version='0.1.24',
+    version='0.1.25',
     url='https://github.com/nabetama/Flask-Json-Syslog',
     license='MIT',
     author='Mao Nabeta',
