@@ -49,7 +49,7 @@ In your application
     g.json_log({'foo': 'bar'}, ...)
 
 (r)syslog.conf
-~~~~~~~~~~~~
+~~~~~~~~~~~~~~
 
 .. code:: sh
 
