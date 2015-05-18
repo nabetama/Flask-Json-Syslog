@@ -27,9 +27,12 @@ class JsonSysLog(object):
             self.init_app(app)
 
     def init_app(self, app):
-        app.config.setdefault('JSON_SYSLOG_LEVEL', 'info')
-        app.config.setdefault('JSON_SYSLOG_NUMBER',  syslog.LOG_LOCAL5)
-        app.config.setdefault('JSON_SYSLOG_FACILITY',  syslog.LOG_INFO)
+        if not app.config.get('JSON_SYSLOG_LEVEL'):
+            app.config.setdefault('JSON_SYSLOG_LEVEL', 'info')
+        if not app.config.get('JSON_SYSLOG_NUMBER'):
+            app.config.setdefault('JSON_SYSLOG_NUMBER',  syslog.LOG_LOCAL5)
+        if not app.config.get('JSON_SYSLOG_FACILITY'):
+            app.config.setdefault('JSON_SYSLOG_FACILITY',  syslog.LOG_INFO)
         self.log_level = app.config['JSON_SYSLOG_LEVEL']
         self.log_number = app.config['JSON_SYSLOG_NUMBER']
         self.facility  = app.config['JSON_SYSLOG_FACILITY']
