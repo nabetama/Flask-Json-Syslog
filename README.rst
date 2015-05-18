@@ -47,8 +47,8 @@ In your application
 
     g.json_log({'foo': 'bar'}, ...)
 
-rsyslog.conf
-~~~~~~~~~~~~
+(r)syslog.conf
+~~~~~~~~~~~~~~
 
 .. code:: sh
 
@@ -58,4 +58,3 @@ rsyslog.conf
     local5.* /var/log/local5.log;json
 
     ...
-
