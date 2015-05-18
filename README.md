@@ -38,7 +38,7 @@ def before_request():
 g.json_log({'foo': 'bar'}, ...)
 ```
 
-### rsyslog.conf
+### (r)syslog.conf
 ```sh
 ...
 
