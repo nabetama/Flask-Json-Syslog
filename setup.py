@@ -6,7 +6,7 @@ with open("README.rst",  "rt") as f: readme = f.read()
 
 setup(
     name='Flask-Json-Syslog',
-    version='0.1.27',
+    version='0.1.28',
     url='https://github.com/nabetama/Flask-Json-Syslog',
     license='MIT',
     author='Mao Nabeta',
