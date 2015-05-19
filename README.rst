@@ -1,6 +1,8 @@
 Flask-Json-Syslog
 =================
 
+|Downloads| |Supported Python versions| |Latest Version| |License|
+
 This is the Flask extension facility to output syslog of the Json form.
 
 Installation
@@ -58,3 +60,12 @@ In your application
     local5.* /var/log/local5.log;json
 
     ...
+
+.. |Downloads| image:: https://pypip.in/download/Flask-Json-Syslog/badge.svg
+   :target: https://pypi.python.org/pypi/Flask-Json-Syslog/
+.. |Supported Python versions| image:: https://pypip.in/py_versions/Flask-Json-Syslog/badge.svg
+   :target: https://pypi.python.org/pypi/Flask-Json-Syslog/
+.. |Latest Version| image:: https://pypip.in/version/Flask-Json-Syslog/badge.svg?text=version
+   :target: https://pypi.python.org/pypi/Flask-Json-Syslog/
+.. |License| image:: https://pypip.in/license/Flask-Json-Syslog/badge.svg
+   :target: https://pypi.python.org/pypi/Flask-Json-Syslog/
