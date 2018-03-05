@@ -1,8 +1,8 @@
 # Flask-Json-Syslog
-[![Downloads](https://pypip.in/download/Flask-Json-Syslog/badge.svg)](https://pypi.python.org/pypi/Flask-Json-Syslog/)
-[![Supported Python versions](https://pypip.in/py_versions/Flask-Json-Syslog/badge.svg)](https://pypi.python.org/pypi/Flask-Json-Syslog/)
-[![Latest Version](https://pypip.in/version/Flask-Json-Syslog/badge.svg?text=version)](https://pypi.python.org/pypi/Flask-Json-Syslog/)
-[![License](https://pypip.in/license/Flask-Json-Syslog/badge.svg)](https://pypi.python.org/pypi/Flask-Json-Syslog/)
+[![Downloads](https://img.shields.io/pypi/dm/Flask-Json-Syslog.svg)](https://pypi.python.org/pypi/Flask-Json-Syslog/)
+[![Supported Python versions](https://img.shields.io/pypi/pyversions/Flask-Json-Syslog.svg)](https://pypi.python.org/pypi/Flask-Json-Syslog/)
+[![Latest Version](https://img.shields.io/pypi/v/Flask-Json-Syslog.svg?label=version)](https://pypi.python.org/pypi/Flask-Json-Syslog/)
+[![License](https://img.shields.io/pypi/l/Flask-Json-Syslog.svg)](https://pypi.python.org/pypi/Flask-Json-Syslog/)
 
 This is the Flask extension facility to output syslog of the Json form.
 
